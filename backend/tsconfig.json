@@ -1,0 +1,14 @@
+{
+  "compilerOptions": 
+  {
+    "types": ["node"],
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+
+}
+
+  
