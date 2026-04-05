@@ -1,4 +1,4 @@
-const BASE_URL = 'http://192.168.62.2/api';
+const BASE_URL = 'http://192.168.62.3:3000';
 
 export const apiCall = async (endpoint, options = {}) => {
   const token = localStorage.getItem('token');
