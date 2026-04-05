@@ -3,12 +3,15 @@
   {
     "types": ["node"],
     "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "verbatimModuleSyntax": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
 
   
